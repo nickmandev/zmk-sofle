@@ -53,7 +53,7 @@
         layer0 {
             bindings = <
 &kp ESC         &kp N1   &kp N2        &kp N3            &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9           &kp N0    &kp TILDE
-&kp TAB         &kp Q    &kp W         &kp E             &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P     &kp BACKSPACE
+&kp TAB         &kp Q    &kp W         &kp E             &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O            &kp P     &kp EQUAL
 &kp LEFT_SHIFT  &kp A    &kp S         &kp D             &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K          &kp L            &kp SEMI  &kp APOS
 &kp LCTRL       &kp Z    &kp X         &kp C             &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA      &kp DOT          &kp FSLH  &kp RIGHT_SHIFT
 &kp C_MUTE      &kp DEL  &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp BACKSPACE  &kp PRINTSCREEN  &kp HOME
@@ -65,11 +65,11 @@
 
         layer_1 {
             bindings = <
-&studio_unlock  &kp F1           &kp F2        &kp F3        &kp F4          &kp F5             &mmv MOVE_UP     &kp F6            &kp F7             &kp F8           &kp F9                &kp F10                &kp F11
-&kp GRAVE       &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5             &mmv MOVE_DOWN   &kp NUMBER_6      &kp N7             &kp NUMBER_8     &kp NUMBER_9          &kp N0                 &kp F12
-&trans          &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR      &kp PERCENT        &mmv MOVE_LEFT   &kp CARET         &kp AMPS           &kp KP_MULTIPLY  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&trans          &kp EQUAL        &kp MINUS     &kp PLUS      &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON    &kp COLON             &kp BACKSLASH          &trans
-&kp C_MUTE      &studio_unlock   &trans        &trans        &trans          &trans             &mkp LCLK        &trans            &trans             &trans           &trans                &trans
+&studio_unlock  &kp F1           &kp F2       &kp F3        &kp F4      &kp F5         &mmv MOVE_UP     &kp F6     &kp F7                &kp F8                 &kp F9     &kp F10        &kp F11
+&trans          &kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR  &kp PERCENT    &mmv MOVE_DOWN   &kp EQUAL  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GT     &kp PIPE       &kp F12
+&trans          &kp CARET        &kp AMPS     &kp ASTERISK  &kp DOLLAR  &kp PERCENT    &mmv MOVE_LEFT   &kp MINUS  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER  &kp SLASH      &kp PIPE
+&trans          &trans           &trans       &trans        &trans      &trans         &mmv MOVE_RIGHT  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &kp BACKSLASH  &trans
+&kp C_MUTE      &studio_unlock   &trans       &trans        &trans      &trans         &mkp LCLK        &trans     &trans                &trans                 &trans     &trans
             >;
 
             display-name = "layer1";
